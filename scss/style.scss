@@ -490,11 +490,15 @@ height: 44px;
 padding: 12px;
 justify-content: space-between;
 align-items: center;
+margin-right: 20px;
         }
     }
     .header__block__2 {
         max-width: 930px;
         height: 55px;
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
         .text {
             display: none;
         }
@@ -504,7 +508,7 @@ align-items: center;
         .header__nav__info {
                 margin: 0px 8px;
                 span {
-                    gap: 15px;
+                    gap: 5px;
                     p {
                         color: var(--Gray-04, #6E7191);
 font-family: Golos;
@@ -516,6 +520,9 @@ line-height: 30px; /* 214.286% */
                 }           
         }
         .header__info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             .header__picture {
                 margin-left: 8px;
                 gap: 16px;
@@ -527,7 +534,8 @@ line-height: 30px; /* 214.286% */
             p {
                 display: flex;
 width: 175px;
-padding: 0px 8px;
+height: 30px;
+// padding: 0px 8px;
 justify-content: space-between;
 align-items: center;
             }
@@ -541,7 +549,7 @@ justify-content: center;
 align-items: center;
 gap: 4px;
 flex-shrink: 0;
-            margin-left: 15px;
+            // margin-left: 15px;
             p {
                 display: none;
             }
@@ -553,13 +561,53 @@ flex-shrink: 0;
     padding: 0px 47px 0 48px;
    }
    .main__section__container {
-    padding: 0px 47px 0 48px;
+    margin-bottom: 100px;
+   .main__info__container {
+    display: flex;
+flex-direction: column;
+align-items: flex-end;
+gap: 20px;
+max-width: 929px;
+height: 250px;
+
+.first__text {
+    max-width: 447px;
+height: 88px;
+color: var(--Gray-02, #6E7191);
+/* body 18 */
+font-family: Golos;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 122.222% */
+}
+.second__text {
+    max-width: 449px;
+    color: var(--Gray-02, #6E7191);
+/* body 16 */
+font-family: Golos;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 125% */
+
+}
+img {
+    width: 450px;
+height: 250px;
+}
    }
-   .main__info__second {
     padding: 0px 47px 0 48px;
+    .main__info__first {
+        
+    }
+}
    }
    .logo__main__nav {
     padding: 0px 47px 0 48px;
    }
+.logo__nav__container {
+    display: flex;
+    align-items: center;
 
 }
