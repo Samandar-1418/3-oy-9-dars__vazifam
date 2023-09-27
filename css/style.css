@@ -576,10 +576,5 @@
   }
 }
 .logo__main__nav {
-  /* padding: 0px 47px 0 48px; */
-}
-
-.logo__nav__container {
-  display: flex;
-  align-items: center;
+  padding: 0px 47px 0 48px;
 }/*# sourceMappingURL=style.css.map */
